@@ -52,7 +52,8 @@ This project is suitable for:
 ---
 
 ## 📸 Screenshots
-(!screenshot.PNG)
+![E-commerce Website Screenshot](screenshot.PNG)
+
 
 ---
 
