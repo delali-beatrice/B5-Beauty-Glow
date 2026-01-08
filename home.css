@@ -1,0 +1,43 @@
+/* Home Page Styling */
+.home-page{
+    position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+
+}
+.home-page > .overlay-text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  color: wheat;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8), 
+                 0 2px 4px rgba(0,0,0,0.8);
+}
+.background-image{
+    width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.home-page h1{
+    font-size: 48px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.home-page h3{
+    font-size: 35px;
+    padding-top: 0;
+    margin: 0;
+    white-space: nowrap;
+}

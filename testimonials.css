@@ -1,0 +1,95 @@
+/* Testimonials Page Styling */
+.testimonials-page{
+    background-color: #f2f2f2;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.testimonials-page h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.testimonials-page > .underline{
+    margin: auto;
+    height: 3px;
+    margin-top: 3px;
+}
+.testimonial-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px;
+    margin-top: 20px;
+    padding: 20px;
+    height: auto;
+}
+/* --- Testimonial Card Styling --- */
+.testimonial-card {
+  width: 45%;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee; /* Subtle border for definition */
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Star Rating Styling --- */
+.star-rating {
+  font-size: 1.5rem; /* Makes stars a good, readable size */
+  line-height: 1;
+  margin-bottom: 15px; /* Spacing below stars */
+}
+
+.star {
+  color: #ccc; /* Default color for unrated stars */
+}
+
+.star.filled {
+  color: #FFD700; /* Gold color for rated stars */
+}
+
+.star.half {
+    color: #b19a1c; 
+}
+
+
+/* --- Quote Styling --- */
+.testimonial-quote {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* --- Author Info Styling --- */
+.author-info {
+  display: flex; /* Aligns icon and text side-by-side */
+  align-items: center;
+  margin-top: 15px;
+  border-top: 1px solid #eee; /* Separator line */
+  padding-top: 15px;
+}
+
+.author-icon {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  line-height: 1;
+  /* Use a brand color for the icon */
+  color: #0A4A3A; /* Deep Forest Green from previous suggestion */
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: bold;
+  color: #1C1C1C;
+}
+
+.author-title {
+  font-size: 0.9rem;
+  color: #666;
+}
