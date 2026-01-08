@@ -52,7 +52,7 @@ This project is suitable for:
 ---
 
 ## 📸 Screenshots
-(screenshot.PNG)
+(!screenshot.PNG)
 
 ---
 
